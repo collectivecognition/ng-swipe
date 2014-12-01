@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang=en-us ng-app="app">
+  <head>
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-tap-highlight" content="no" />
+    <title>ngSwipe Examples</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.4/angular.min.js"></script>
+    <script src="http://hammerjs.github.io/dist/hammer.min.js"></script>
+    <!--<script src="ng-swipe-0.0.0.js"></script>-->
+    <script src="ng-swipe.js"></script>
+    <script src="components/carousel.js"></script>
+    <script src="components/tabs.js"></script>
+    <script src="app/app.js"></script>
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <section>
+      <article>
+        <h1 class="logo">ngSwipe</h1>
+        <h3 class="subhead">A collection of touchable mobile-friendly ui elements for angular.js, powered by the awesome hammer.js</h3>
+      </article>
+    </section>
+    <section class="red">
+      <article>
+        <script src="app/carousel/carousel.js"></script>
+        <div ng-include="'app/carousel/carousel.html'"></div>
+      </article>
+    </section>
+    <section class="green">
+      <article>
+        <script src="app/tabs/tabs.js"></script>
+        <div ng-include="'app/tabs/tabs.html'"></div>
+      </article>
+    </section>
+    <section class="blue">
+      <article></article>
+    </section>
+  </body>
+</html>

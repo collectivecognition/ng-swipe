@@ -1,0 +1,30 @@
+{
+  "name": "ngSwipe",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "test": "./node_modules/gulp/bin/gulp.js test",
+    "start": "./node_modules/gulp/bin/gulp.js",
+    "postinstall": "./node_modules/.bin/webdriver-manager update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/collectivecognition/ng-swipe.git"
+  },
+  "author": "Will Blanchette",
+  "bugs": {
+    "url": "https://github.com/collectivecognition/ng-swipe/issues"
+  },
+  "homepage": "https://github.com/collectivecognition/ng-swipe",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.2",
+    "gulp-connect": "^2.2.0",
+    "gulp-jshint": "^1.9.0",
+    "gulp-open": "^0.3.1",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.1",
+    "rimraf": "^2.2.8"
+  }
+}

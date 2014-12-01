@@ -1,0 +1,19 @@
+{
+  "name": "ngSwipe",
+  "version": "0.0.0",
+  "authors": [
+    "Will Blanchette <wb@wblanchette.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "hammerjs": "~2.0.4"
+  }
+}
